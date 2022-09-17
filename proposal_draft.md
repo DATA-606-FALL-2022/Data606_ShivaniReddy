@@ -1,3 +1,13 @@
+# FAKE NEWS DETECTION
+
+<img src="fakenews.jpeg" width="700" height="400">
+
+
+
+
+
+
+
 ## What is your issue of interest?
 
 Fake news, which is defined as a false tale created with the purpose to deceive, has been heavily blamed for the outcome of the 2016 US presidential election. While Facebook's CEO, Mark Zuckerberg, issued a public statement [1] denying that the company had any influence on the election's outcome, Facebook and other online media outlets have begun to create tactics for detecting false news and preventing its spread. "This is an area where I feel we must move very carefully," Zuckerberg wrote, admitting that identifying false news is challenging. It is difficult to determine the truth. Fake news is becoming a growing threat to our society. It is usually produced for business purposes in order to attract viewers and create advertising income. People and groups with potentially harmful goals have been known to spread fake news around the world in order to influence events and policy. It's also believed that the spread of fake news influenced the outcome of the 2016 US Presidential Election [2].
