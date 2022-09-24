@@ -63,3 +63,13 @@ The goal of this project is to create a tool that users may use to identify and 
 
 - Implementing NLP algorithms
 
+## The variables you use are all texts. How do you perform Machine learning?
+Since the project's goal is to categorize and predict fake news, I would view this more as a classification problem and work on creating the classification report, which is used to evaluate how well a classification algorithm predicts using the precision, AU-ROC, recall, F1 Score, and support from our trained classification model. In order to compare the effectiveness and comprehend the metrics of each model, I want to use visualization techniques.
+Since the dataset is mostly contianing textual data columns like "Text" , "Title" and "Subject", I would to do perform text preprocessing steps as follows:
+- Removing punctuations like . , ! $( ) * % @
+- Removing URLs
+- Removing Stop words
+- Lower casing
+- Tokenization
+- Lemmatization
+ 
