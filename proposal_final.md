@@ -31,7 +31,7 @@ The following are the characteristics of a complete training dataset:
 
 ## What variables/measures do you plan to use in your analysis?
 
-<img src="fakenews.jpeg" width="700" height="400">
+<img src="fakenewsarch.png" width="700" height="400">
 
 
 
