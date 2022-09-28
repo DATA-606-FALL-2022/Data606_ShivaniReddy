@@ -30,6 +30,12 @@ The following are the characteristics of a complete training dataset:
 - 0: reliable
 
 ## What variables/measures do you plan to use in your analysis?
+
+<img src="fakenewsarch.png" width="700" height="400">
+
+
+
+
 The dataset's title, author, and text columns are where I would like to focus the most.
 
 Text and title:
@@ -40,6 +46,16 @@ Author:
 
 Are the authors of the majority of fake news stories the same? Decide if the author's next version will be a fake.
 
+## The variables you use are all texts. How do you perform Machine learning?
+Since the project's goal is to categorize and predict fake news, I would view this more as a classification problem and work on creating the classification report, which is used to evaluate how well a classification algorithm predicts using the precision, AU-ROC, recall, F1 Score, and support from our trained classification model. In order to compare the effectiveness and comprehend the metrics of each model, I want to use visualization techniques.
+Since the dataset is mostly contianing textual data columns like "Text" , "Title" and "Subject", I would to do perform text preprocessing steps as follows:
+- Removing punctuations like . , ! $( ) * % @
+- Removing URLs
+- Removing Stop words
+- Lower casing
+- Tokenization
+- Lemmatization
+- 
 ## What kinds of techniques/models do you plan to use
 To evaluate the efficacy of fake news detection classifiers, I examined into four different machine-learning algorithms in particular
 - Passive aggressive classifier
@@ -62,14 +78,3 @@ The goal of this project is to create a tool that users may use to identify and 
 - Data Cleanup
 
 - Implementing NLP algorithms
-
-## The variables you use are all texts. How do you perform Machine learning?
-Since the project's goal is to categorize and predict fake news, I would view this more as a classification problem and work on creating the classification report, which is used to evaluate how well a classification algorithm predicts using the precision, AU-ROC, recall, F1 Score, and support from our trained classification model. In order to compare the effectiveness and comprehend the metrics of each model, I want to use visualization techniques.
-Since the dataset is mostly contianing textual data columns like "Text" , "Title" and "Subject", I would to do perform text preprocessing steps as follows:
-- Removing punctuations like . , ! $( ) * % @
-- Removing URLs
-- Removing Stop words
-- Lower casing
-- Tokenization
-- Lemmatization
- 
