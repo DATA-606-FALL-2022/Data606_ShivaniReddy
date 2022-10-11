@@ -21,13 +21,12 @@ Most importantly, society is typically divided into pro- and anti-government fac
 
 This project's datasets were sourced from Kaggle [3]. The training dataset contains 20800 rows and 5 columns of data from various internet articles. In order to train our models, we had to undertake a lot of data pre-processing, as evidenced by the source code.
 The following are the characteristics of a complete training dataset:
-- id: a news article's unique identifier
 - title: a news article's headline
-- author: the news article's author
+- Subject: what type of news
 - Text: the article's text; in some situations, it is incomplete.
-- label: a marker that indicates that the article is potentially untrustworthy                                        
-- 1: Unreliable 
-- 0: reliable
+- Target: a marker that indicates that the article is potentially untrustworthy                                        
+- fake: Unreliable 
+- True: reliable
 
 ## What variables/measures do you plan to use in your analysis?
 
