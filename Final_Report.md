@@ -1,5 +1,7 @@
 # FAKE NEWS DETECTION
 
+<img src="fakenews.jpeg" width="700" height="400">
+
 ## Abstract
 
 In this project, I looked at how Natural Language Processing techniques can be used to detect when a news source is spreading fake news. To develop a classifier that can make judgements about information based on the content in the corpus, I used a corpus of labelled actual and false new articles. I have applied a text classification approach and examined the outcomes using four distinct classification models. All of the models developed for this study performed similarly. The logistic regression model has outperformed all others. Based on many articles originating from a source, the algorithm focuses on identifying fake news sources. We can anticipate with high confidence that any future publications from a source classified as a producer of fake news will also be fake news. Focusing on sources increases our article misclassification tolerance because each source now has several data points.
@@ -59,8 +61,16 @@ The Decision-Tree algorithm is a popular supervised machine learning algorithm t
 ## Results:
 
 Below mentioned are the results of all the trained models. In terms of machine learning model performance, Random Forest Classifier performed the best among all trained models, with an accuracy of 99% and both true positive rate and false positive rate close to 1.0 .
+
+<img src="/images/Results.png" width="200" height="200">
  
 Confusion Matrices for Static Systems following the application of various extracted feature (Bag-of-words) .The confusion matrix displaying the actual and predicted sets of the best performed model is shown below.
+
+<img src="/images/confusionmatrix.png" width="200" height="200">
+
+
+
+<img src="/images/ROCcurve.png" width="200" height="200">
  
 
 ## Conclusion:
