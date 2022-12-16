@@ -62,15 +62,16 @@ The Decision-Tree algorithm is a popular supervised machine learning algorithm t
 
 Below mentioned are the results of all the trained models. In terms of machine learning model performance, Random Forest Classifier performed the best among all trained models, with an accuracy of 99% and both true positive rate and false positive rate close to 1.0 .
 
-<img src="/images/Results.png" width="200" height="200">
+<img src="Images/Results.png" width="400" height="350">
  
 Confusion Matrices for Static Systems following the application of various extracted feature (Bag-of-words) .The confusion matrix displaying the actual and predicted sets of the best performed model is shown below.
 
-<img src="/images/confusionmatrix.png" width="200" height="200">
+<img src="Images/confusionmatrix.png" width="400" height="300">
 
 
+The ROC curve shows that, both True positive rate and False positive rate are close to 1.0 and Area Under Curve is equal to 1.0, representing that model is peforming good at classifying the true and false news.
 
-<img src="/images/ROCcurve.png" width="200" height="200">
+<img src="Images/ROCcurve.png" width="400" height="300">
  
 
 ## Conclusion:
