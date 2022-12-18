@@ -1,6 +1,9 @@
 # FAKE NEWS DETECTION
 
+### Video Presentation Link: https://youtu.be/OiH4E8AcTH8
+
 <img src="fakenews.jpeg" width="700" height="400">
+
 
 ## Abstract
 
